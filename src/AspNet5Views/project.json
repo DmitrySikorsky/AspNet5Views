@@ -1,0 +1,29 @@
+﻿{
+  "authors": [
+    "Dmitry Sikorsky"
+  ],
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "dependencies": {
+    "AspNet5Views.PrecompiledViews": "1.0.0",
+    "AspNet5Views.ViewsAsResources": "1.0.0",
+    "Microsoft.AspNet.FileProviders.Embedded": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final"
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ],
+  "version": "1.0.0-*"
+}
